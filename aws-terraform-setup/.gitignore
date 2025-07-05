@@ -1,0 +1,27 @@
+# Archivos sensibles de AWS
+*.pem
+
+# Archivos de configuración local de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de salida temporales
+*.tfstate
+*.tfstate.backup
+crash.log
+*.log
+
+# Archivos de variables sensibles (si decides usarlos)
+terraform.tfvars
+terraform.tfvars.json
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
